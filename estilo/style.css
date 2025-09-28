@@ -32,11 +32,14 @@ DarkBlue: #001118
     transform: translate(-50%, -50%);
     overflow: hidden;
 
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 250px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.63);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
  }
 
  section#login > div#imagem {
